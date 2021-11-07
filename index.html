@@ -12,16 +12,20 @@
         
         <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
+        <link href="https://fonts.googleapis.com/css2?family=Mohave&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Mohave&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="heading">
+        <div class="col-xs-12 heading text-center">
             <h2>Animal Sounds</h2>
             <p>NOTE : Play different animal sounds. </p>
         </div>
         <div id="mainDiv">
             <center>
-            <button onclick="listen();">Listen</button>
+            <button onclick="listen();" id="listen">Listen</button>
             <br>
             <h4 id="dog">Dog detected : 0</h4>
             <hr>
@@ -36,6 +40,8 @@
             <img src="ear.png" width="500" height="500">
             </center>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            
+        </div>
     </body>
 </html>

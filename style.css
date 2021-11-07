@@ -1,0 +1,35 @@
+body{
+    background-color: plum;
+    font-family: 'Special Elite',cursive;
+    font-size: 30px;
+}
+.heading{
+    background-color: darkgray;
+    color: white;
+}
+p{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Mohave',sans-serif;
+}
+#listen{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    font-family: 'Zen Kurenaido',sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer{
+    position: fixed;
+    background-color: lightgray;
+    width: 100%;
+    font-size: 15px;
+    line-height: 10px;
+    text-shadow: gray;
+    Bottom:0;
+}
